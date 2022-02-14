@@ -1,0 +1,109 @@
+@import "null.css";
+
+
+@font-face {
+	font-family: "CircularStd";
+	src: url(../fonts/CircularStd-Book.woff2) format("woff2"), url(../fonts/CircularStd-Book.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url(../fonts/CircularStd-Bold.woff2) format("woff2"), url(../fonts/CircularStd-Bold.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url(../fonts/CircularStd-Medium.woff2) format("woff2"), url(../fonts/CircularStd-Medium.woff) format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	font-family: "CircularStd", sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1025px;
+	/* выравнивание по центру */
+	margin: 0px auto ;
+	
+}
+
+
+.tittle1{
+	font-weight: 500;
+	font-size: 65px;
+	line-height: 82px;
+	margin-top: 140px;
+	margin-bottom: 20px;
+	color: #313131;
+	text-transform: capitalize;
+	text-align: center;
+	
+}
+
+.paragraph1{
+	/* задаю ширину блока */
+	max-width: 750px;
+	/* задаю выравнивание по центру */
+	margin: 0 auto 224px;
+	line-height: 24px;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	color: #5F5F5F;
+	
+}
+
+
+.tittle2{
+	font-weight: 700;
+	font-size: 34px;
+	margin-bottom: 20px;
+	line-height: 44px;
+	color: #313131;
+	text-transform: capitalize;
+	
+}
+
+
+.paragraph2{
+	max-width: 508px;
+	margin-bottom: 125px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #5F5F5F;
+	
+}
+
+.name{
+	margin-bottom: 5px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	color: #313131;
+	
+}
+
+.position{
+	color: #B8B8B8;
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: 400;
+	margin-bottom: 67px;
+}
+
+.img{
+	margin-bottom: 140px;
+
+}
