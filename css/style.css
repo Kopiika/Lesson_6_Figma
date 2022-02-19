@@ -32,18 +32,25 @@ body{
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+}
+
+/* исправления отступ задала родителю а не самой картинке */
+.main{
+	margin-bottom: 140px;
 	max-width: 1025px;
 	/* выравнивание по центру */
 	margin: 0px auto ;
-	
 }
 
+/* исправления отступ от верхнего края (исправила схлопывание) */
+.header{
+	margin-bottom: 140px;
+}
 
 .tittle1{
 	font-weight: 500;
 	font-size: 65px;
 	line-height: 82px;
-	margin-top: 140px;
 	margin-bottom: 20px;
 	color: #313131;
 	text-transform: capitalize;
@@ -103,7 +110,3 @@ body{
 	margin-bottom: 67px;
 }
 
-.img{
-	margin-bottom: 140px;
-
-}
